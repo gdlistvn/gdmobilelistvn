@@ -311,3 +311,15 @@ footer > * {
         min-width: 5%;
     }
 }
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.9em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+}
