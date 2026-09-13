@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(191, 47, 248);
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 4rem;
+    background-color: rgb(96, 3, 150);
+    color: rgb(250, 250, 250);
+    padding-inline: calc(25vw - 10rem);
+    column-gap: 2rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+::before, ::after {
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header .logo {
+    justify-self: center;
+    font-family: "Oswald", sans-serif;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+p::before {
+    content: "";
+    margin-bottom: -0.4916666667em;
+    display: table;
+}
+
+p::after {
+    content: "";
+    margin-bottom: -0.4916666667em;
+    display: table;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Comic Relief", system-ui;
+    line-height: 28px;
+    font-size: 17px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    margin: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+header .nav {
+    display: 1;
+}
+
+.nav {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.type-label-lg::after {
+    content: "";
+    margin-bottom: -0.2583333333em;
+    display: table;
+}
+
+.nav .nav__tab.router-link-active {
+    border-color: white;
+}
+
+.nav .nav__tab {
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
+    border-bottom: 4px solid transparent;
+    transition: border-color 100ms ease;
+}
+
+.type-label-lg {
+    font-family: "Comic Relief", system-ui;
+    font-size: 1.5rem;
+    font-weight: 700;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.nav .nav__tab:hover {
+    border-color: white;
+}
+
+.nav .nav__actions {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav .nav__actions .nav__icon {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.nav .nav__actions .nav__icon img {
+    height: 1.5rem;
+}
+
+.nav .nav__actions .nav__icon:hover {
+    background-color: rgba(255, 1, 192, 0.2);
+}
+
+.nav .nav__actions .nav__cta {
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    color:rgb(34, 0, 156);
+    border-radius: 0.5rem;
+    transition: transform 100ms ease;
+    box-shadow: 0px 1px 0.5rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.nav .nav__actions .nav__cta:hover:not(:active) {
+    transform: translateY(-2px);
+}
+
+main {
+    display: grid;
+    height: 0;
+    flex: 1;
+    unicode-bidi: isolate;
+}
+
+.message {
+    color: white;
+    margin-top: 15rem;
+    text-align: center;
+}
