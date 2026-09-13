@@ -307,8 +307,8 @@ footer > * {
         flex-wrap: wrap;
     }
     .thumb {
-        max-width: 5%;
-        min-width: 5%;
+        max-width: 30%;
+        min-width: 30%;
     }
 }
 
