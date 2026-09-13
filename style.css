@@ -306,4 +306,8 @@ footer > * {
     .container {
         flex-wrap: wrap;
     }
+    .thumb {
+        max-width: 5%;
+        min-width: 5%;
+    }
 }
