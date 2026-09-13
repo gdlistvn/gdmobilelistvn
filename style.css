@@ -310,6 +310,9 @@ footer > * {
         max-width: 30%;
         min-width: 30%;
     }
+    header {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
