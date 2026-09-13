@@ -294,4 +294,13 @@ footer > * {
     margin: 10px 10px;
 }
 
-
+@media (max-width: 1023px) {
+    .left {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .left {
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
