@@ -294,28 +294,4 @@ footer > * {
     margin: 10px 10px;
 }
 
-@media (max-width: 768px) {
-    body {
-        margin: 0;
-        width: 100%;
-        overflow-x: hidden;
-    }
 
-    .left {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        padding: 10px;
-    }
-
-    .panel {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    .thumb {
-        max-width: 100%;
-        height: auto;
-    }
-}
