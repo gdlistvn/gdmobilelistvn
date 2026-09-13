@@ -311,7 +311,10 @@ footer > * {
         min-width: 30%;
     }
     header {
-        max-width: 100%;
+        width: 100%;
+    }
+    .panel {
+        width: 100%;
     }
 }
 
