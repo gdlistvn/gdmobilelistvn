@@ -304,3 +304,9 @@ footer > * {
         min-width: 100%;
     }
 }
+
+@media (max-width: 1023px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
