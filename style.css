@@ -294,25 +294,6 @@ footer > * {
     margin: 10px 10px;
 }
 
-@media (max-width: 1023px) {
-    .left {
-        max-width: 100%;
-        min-width: 100%;
-    }
-    .container {
-        flex-wrap: wrap;
-    }
-    .thumb {
-        max-width: 25%;
-        min-width: 25%;
-    }
-    header {
-        width: 50%;
-    }
-    .panel {
-        width: 85%;
-    }
-}
 
 @media (max-width: 767px) {
     h1 {
@@ -339,6 +320,9 @@ footer > * {
         width: 100%;
     }
     .panel {
-        width: 90%;
+        width: 95%;
+    }
+    .nav {
+        width: 50%;
     }
 }
