@@ -402,17 +402,19 @@ footer > * {
 
     /* ===== LEVEL CONTENT ===== */
 
-    .panel > .flex {
-        width: 100%;
-        min-width: 0;
-        align-items: center;
+    .panel > .flex > div:not(.thumb) {
+    min-width: 0;
+    flex: 1;
+    padding-left: 10px !important;
     }
 
     .thumb {
-        width: 25%;
-        min-width: 25%;
-        max-width: 25%;
-        height: 120px !important;
+    width: 18%;
+    min-width: 18%;
+    max-width: 18%;
+    height: 100px !important;
+    background-size: cover;
+    background-position: center;
     }
 
     .panel > .flex > div:not(.thumb) {
