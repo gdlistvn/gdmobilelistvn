@@ -297,13 +297,13 @@ footer > * {
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 1.5em;
+        width: 75%;
     }
     h2 {
-        font-size: 1.2em;
+        width: 75%;
     }
     h3 {
-        font-size: 1.1em;
+        width: 75%;
     }
     .left {
         max-width: 100%;
@@ -313,16 +313,18 @@ footer > * {
         flex-wrap: wrap;
     }
     .thumb {
-        max-width: 25%;
-        min-width: 25%;
+        width: 25%;
     }
     header {
         width: 100%;
     }
     .panel {
-        width: 97%;
+        width: 96%;
     }
-    .nav {
-        width: 50%;
+    .logo {
+        width: 75%;
+    }
+    .span {
+        width: 75%
     }
 }
