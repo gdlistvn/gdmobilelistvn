@@ -299,28 +299,24 @@ footer > * {
         max-width: 100%;
         min-width: 100%;
     }
-    .left {
-        max-width: 100%;
-        min-width: 100%;
-    }
     .container {
         flex-wrap: wrap;
     }
     .thumb {
-        max-width: 30%;
-        min-width: 30%;
+        max-width: 25%;
+        min-width: 25%;
     }
     header {
-        width: 100%;
+        width: 50%;
     }
     .panel {
-        width: 100%;
+        width: 85%;
     }
 }
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 1.9em;
+        font-size: 1.8em;
     }
     h2 {
         font-size: 1.5em;
