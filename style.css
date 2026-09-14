@@ -324,7 +324,10 @@ footer > * {
     .logo {
         width: 75%;
     }
-    .span {
+    span {
+        width: 75%
+    }
+    a {
         width: 75%
     }
 }
