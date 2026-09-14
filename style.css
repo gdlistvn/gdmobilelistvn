@@ -324,4 +324,21 @@ footer > * {
     h3 {
         font-size: 1.1em;
     }
+    .left {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .thumb {
+        max-width: 25%;
+        min-width: 25%;
+    }
+    header {
+        width: 50%;
+    }
+    .panel {
+        width: 85%;
+    }
 }
