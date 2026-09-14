@@ -316,10 +316,10 @@ footer > * {
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
     h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     h3 {
         font-size: 1.1em;
@@ -336,9 +336,9 @@ footer > * {
         min-width: 25%;
     }
     header {
-        width: 50%;
+        width: 100%;
     }
     .panel {
-        width: 85%;
+        width: 90%;
     }
 }
