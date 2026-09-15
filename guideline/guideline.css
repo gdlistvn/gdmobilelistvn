@@ -176,3 +176,96 @@ main {
     margin-top: 15rem;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+
+    /* ===== BODY ===== */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    /* ===== HEADER ===== */
+
+    header {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        box-sizing: border-box;
+    }
+
+    header .logo {
+        width: auto;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    header .logo h1 {
+        font-size: 2rem;
+        line-height: normal !important;
+    }
+
+    header .logo p {
+        line-height: normal !important;
+        font-size: 16px;
+    }
+
+
+    /* ===== NAV ===== */
+
+    header .nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .nav .nav__tab {
+        width: auto;
+        padding: 5px 10px;
+        border-bottom: 2px solid transparent;
+    }
+
+    .nav .nav__tab .type-label-lg {
+        width: auto;
+        font-size: 1rem;
+    }
+
+
+    /* ===== DISCORD + SUBMIT ===== */
+
+    .nav .nav__actions {
+        width: auto;
+        flex: 0 0 auto;
+        justify-content: center;
+    }
+
+    .nav .nav__actions .nav__cta {
+        margin-left: 5px;
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    /* ===== TEXT ===== */
+
+    h2 {
+        width: 100%;
+        font-size: 1.25rem;
+        overflow-wrap: break-word;
+    }
+
+    h3 {
+        width: 100%;
+        font-size: 0.9rem;
+        overflow-wrap: break-word;
+    }
+
+}
