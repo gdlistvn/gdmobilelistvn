@@ -174,13 +174,3 @@ footer {
 footer > * {
     margin: 10px 10px;
 }
-
-@media (max-width: 767px) {
-    iframe {
-        width: 30%;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: black;
-    }
-}
